@@ -4,6 +4,8 @@ This repository goes along with the article Tree based Diagnosis Enhanced with M
 It is used to store the dataset used as input to DT4X in order to build the explainable diagnosis tree.
 
 The folder Trees contains images of the tree at different steps of the training and the final form of the tree.
+Trees called "depthX" correspond to the original fitting of the tree, and X is the current maximum depth.
+Trees called "refit_on_X" correspond to a refit of the fully fitted tree, trying to explore the node X.
 
 The variables used as input for the training of DT4X are:
 
